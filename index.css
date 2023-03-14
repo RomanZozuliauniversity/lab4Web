@@ -1,0 +1,77 @@
+:root {
+	background-color: rgba(134, 203, 250, 0.646);
+}
+.factaboutdachshund::before{
+	content: " The dachshund"
+}
+.factaboutdachshund::after{
+	content:"The standard-sized dachshund was developed to scent, chase, and flush out badgers and other burrow-dwelling animals.The miniature dachshund was bred to hunt small animals such as rabbits."
+}
+@keyframes change-border {
+	0% {
+		border: 1px solid black;
+	}
+
+	50% {
+		border: 3px solid blue;
+	}
+
+	100% {
+		border: 1px solid black;
+	}
+}
+
+.links {
+	border: 1px solid black;
+	animation: change-border 3s infinite;
+	width: 170px;
+	height: 120px;
+	margin: 10px;
+	position: fixed;
+	top: 500px;
+	right: 20px;
+}
+
+
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+h1,h3,h4 {
+	background: linear-gradient(to right, red, orange, rgb(206, 237, 165), green, blue, indigo, violet);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+img {
+	width:560px;
+	height:315px;
+	transform: rotate(0.0turn);
+    object-fit: cover;
+	/*transform: matrix(1, 2, 3, 4, 5, 6);
+	transform: translate(120px, 50%);
+	transform: scale(2, 0.5);
+	transform: skew(30deg, 20deg);
+	transform: scale(0.5) translate(-100%, -100%);*/
+}
+
+.hiddenflied {
+	position: relative;
+	top: 20px;
+	left: 20px;
+}
+
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	padding: 20px;
+}

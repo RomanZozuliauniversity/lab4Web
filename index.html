@@ -1,12 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Lab4</title>
 </head>
+
 <body>
-    
+    <h1>Dachshund</h1>
+
+    <p class="factaboutdachshund"> <b> The dachshund</b>, also known as the wiener dog,
+        badger dog, and sausage dog, is a short-legged, long-bodied, hound-type dog breed.
+        The dog may be smooth-haired, wire-haired, or long-haired, and comes in a variety of colors.</p>
+
+
+
+    <div id="box">
+        <button onclick="showName()">Show name</button>
+        <p id="name"></p>
+        <p id="fibonacci"></p>
+        <button id="start">start</button>
+        <button id="btn">Change</button>
+    </div>
+    <div class="video container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Rv13RoHd_4Q" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <img src="john.jpg" alt="john">
+    </div>
+    <div class="links">
+        <h3>Our contacts</h3>
+        <ul>
+            <li><a href="https://www.instagram.com/">instagram</a></li>
+            <li><a href="https://www.facebook.com/">facebook</a></li>
+            <li><a href="https://twitter.com/?lang=uk">twitter</a></li>
+        </ul>
+    </div>
+
+    <div class="form">
+        <h3 id="Contactus">Contact us</h3>
+        <h4>we are open with <time datetime="2023-03-09T09:30:00+02:00">9 березня 2023 о 9:30 ранку</time></h4>
+        <table style="width:40%">
+            <tr>
+                <td style="background-color: red;">
+                    <p>Full name <sup>*</sup></p>
+                    <input class="placeholder_dachshund" type="text" placeholder="Full name" required>
+                </td>
+                <td style="background-color: green;">
+                    <p>Email<sup>*</sup></p>
+                    <input class="placeholder_dachshund" type="text" placeholder="Email" required>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: yellow;">
+                    <p>Phone number<sup>*</sup></p>
+                    <input class="placeholder_dachshund" type="text" placeholder="Phone number" required>
+                </td>
+                <td style="background-color: bisque;">
+                    <p>Country<sup>*</sup></p>
+                    <input class="placeholder_dachshund" type="text" placeholder="Country" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="background-color: blueviolet;">
+                    <p>Message<sup>*</sup></p>
+                    <textarea rows="5" cols="20">Message</textarea>
+                </td>
+            </tr>
+        </table> <br>
+        <label for="loving"><input type="radio" name="secret_value" value="12345"> <strong> I want to receive weekly
+                updates </strong></label><br><br>
+        <button class="label__dachshund" type="submit"><b>&nbsp&nbspSend message&nbsp&nbsp</b></button>
+    </div>
+
+
+    <script src="task1.js"></script>
+    <script src="task2.js"></script>
+    <script src="task3.js"></script>
+    <script src="task4.js"></script>
 </body>
+
 </html>
